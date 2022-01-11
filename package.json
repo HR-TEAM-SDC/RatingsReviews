@@ -1,0 +1,8 @@
+{
+  "name": "SDC-Ratings-Reviews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HR-TEAM-SDC/RatingsReviews.git",
+  "author": "Yasin Khan <yasinkhan500@gmail.com>",
+  "license": "MIT"
+}
