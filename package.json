@@ -2,7 +2,20 @@
   "name": "SDC-Ratings-Reviews",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
   "repository": "https://github.com/HR-TEAM-SDC/RatingsReviews.git",
   "author": "Yasin Khan <yasinkhan500@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "csvtojson": "^2.0.10"
+  }
 }
