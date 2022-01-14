@@ -5,7 +5,7 @@ const pool = new Pool({
   password: 'password',
   host: 'localhost',
   port: 5432,
-  database: 'sdcRR',
+  database: 'sdc',
 });
 
 pool.on('error', (err, client) => {

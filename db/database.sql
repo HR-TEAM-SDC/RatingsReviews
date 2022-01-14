@@ -17,7 +17,11 @@ CREATE TABLE reviews (
     helpfulness INT DEFAULT 0
 );
 
-COPY reviews(id, product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness) FROM '/private/tmp/test_reviews.csv' DELIMITER ',' CSV HEADER;
+COPY reviews(id, product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness) FROM '/private/tmp/reviews.csv' DELIMITER ',' CSV HEADER;
+
+/* COPY reviews(id, product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness) FROM '/private/tmp/test_reviews.csv' DELIMITER ',' CSV HEADER; */
+
+
 CREATE TABLE photos (
     id SERIAL PRIMARY KEY,
     review_id INT,
@@ -25,16 +29,22 @@ CREATE TABLE photos (
     FOREIGN KEY(review_id) REFERENCES reviews(id)
 );
 
-COPY photos(id, review_id, url) FROM '/private/tmp/test_reviews_photos.csv' DELIMITER ',' CSV HEADER;
+COPY photos(id, review_id, url) FROM '/private/tmp/reviews_photos.csv' DELIMITER ',' CSV HEADER;
+
+/* COPY photos(id, review_id, url) FROM '/private/tmp/test_reviews_photos.csv' DELIMITER ',' CSV HEADER; */
+
 
 CREATE TABLE characteristics (
     id SERIAL PRIMARY KEY,
     product_id INT,
-    name VARCHAR (50),
-    FOREIGN KEY(product_id) REFERENCES reviews(product_id)
+    name VARCHAR (50)
 );
+    -- FOREIGN KEY(product_id) REFERENCES reviews(product_id)
 
-COPY characteristics(id, product_id, name) FROM '/private/tmp/test_characteristics.csv' DELIMITER ',' CSV HEADER;
+COPY characteristics(id, product_id, name) FROM '/private/tmp/characteristics.csv' DELIMITER ',' CSV HEADER;
+
+/* COPY characteristics(id, product_id, name) FROM '/private/tmp/test_characteristics.csv' DELIMITER ',' CSV HEADER; */
+
 
 
 CREATE TABLE characteristics_reviews (
@@ -46,7 +56,10 @@ CREATE TABLE characteristics_reviews (
     FOREIGN KEY(review_id) REFERENCES reviews(id)
 );
 
-COPY characteristics_reviews(id, characteristic_id, review_id, value) FROM '/private/tmp/test_characteristics_reviews.csv' DELIMITER ',' CSV HEADER;
+COPY characteristics_reviews(id, characteristic_id, review_id, value) FROM '/private/tmp/characteristic_reviews.csv' DELIMITER ',' CSV HEADER;
+
+/* COPY characteristics_reviews(id, characteristic_id, review_id, value) FROM '/private/tmp/test_characteristics_reviews.csv' DELIMITER ',' CSV HEADER; */
+
 
 
 
