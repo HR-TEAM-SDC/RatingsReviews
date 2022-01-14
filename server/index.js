@@ -43,6 +43,9 @@ app.get('/reviews', async (req, res) => {
   try {
     const allReviews = await pool.query(queryStr);
     result.results.push(...allReviews.rows);
+    for (let resultsObj of result.results) {
+      resultsObj.date = new Date(Number(resultsObj.date)).toISOString();
+    }
     res.header('Content-Type', 'application/json');
     console.log(JSON.stringify(result, null, 2));
     res.send(JSON.stringify(result, null, 2));
