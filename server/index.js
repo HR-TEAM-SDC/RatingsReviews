@@ -10,7 +10,7 @@ app.use(cors());
 
 // GET REVIEWS
 app.get('/reviews', async (req, res) => {
-  const { page, count, sort, product_id } = req.query;
+  const { page = 1, count = 5, product_id = '40344', sort } = req.query;
 
   // if (sort === 'newest') {
   //   ('SELECT * FROM reviews ORDER BY date DESC;');
@@ -24,15 +24,21 @@ app.get('/reviews', async (req, res) => {
   //   ('SELECT * FROM reviews ORDER BY helpfulness DESC, date DESC;');
   // }
 
-  const queryStr = `SELECT r.id AS review_id, r.rating, r.summary, r.recommend, r.response, r.body, r.date, r.reviewer_name, r.helpfulness, json_agg(json_build_object('id', p.id, 'url', p.url)) AS photos FROM reviews r JOIN photos p ON p.review_id = r.id`;
+  const result = {
+    product: product_id,
+    page,
+    count,
+    results: [],
+  };
+
+  const queryStr = `SELECT r.id AS review_id, r.rating, r.summary, r.recommend, r.response, r.body, r.date, r.reviewer_name, r.helpfulness, json_agg(json_build_object('id', p.id, 'url', p.url)) AS photos FROM reviews r JOIN photos p ON p.review_id = r.id WHERE r.product_id = ${product_id} GROUP BY r.id, r.rating, r.summary, r.recommend, r.response, r.body, r.date, r.reviewer_name, r.helpfulness LIMIT 5;`;
 
   try {
-    // const allReviews = await pool.query(
-    //   'SELECT * FROM reviews ORDER BY helpfulness DESC LIMIT 100;'
-    // );
     const allReviews = await pool.query(queryStr);
-    console.log('REVIEWS: ', allReviews.rows);
-    res.json(allReviews.rows);
+    result.results.push(...allReviews.rows);
+    res.header('Content-Type', 'application/json');
+    console.log(JSON.stringify(result, null, 2));
+    res.send(JSON.stringify(result, null, 2));
   } catch (err) {
     console.error(err);
   }
