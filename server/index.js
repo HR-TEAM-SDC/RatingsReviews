@@ -31,100 +31,100 @@ app.get('/reviews', async (req, res) => {
     sortQuery = 'ORDER BY helpfulness DESC, date DESC';
   }
 
-  const result = {
+  const data = {
     product: product_id,
     page,
     count,
     results: [],
   };
 
-  const queryStr = `SELECT r.id AS review_id, r.rating, r.summary, r.recommend, r.response, r.body, r.date, r.reviewer_name, r.helpfulness, json_agg(json_build_object('id', p.id, 'url', p.url)) AS photos FROM reviews r JOIN photos p ON p.review_id = r.id WHERE r.product_id = ${product_id} GROUP BY r.id, r.rating, r.summary, r.recommend, r.response, r.body, r.date, r.reviewer_name, r.helpfulness ${sortQuery} LIMIT 5;`;
+  const queryStr = `SELECT r.id AS review_id, r.rating, r.summary, r.recommend, r.response, r.body, TO_TIMESTAMP(r.date / 1000) AS date, r.reviewer_name, r.helpfulness, json_agg(json_build_object('id', p.id, 'url', p.url)) AS photos FROM reviews r JOIN photos p ON p.review_id = r.id WHERE r.product_id = ${product_id} GROUP BY r.id, r.rating, r.summary, r.recommend, r.response, r.body, r.date, r.reviewer_name, r.helpfulness ${sortQuery} LIMIT ${count};`;
 
   try {
     const allReviews = await pool.query(queryStr);
-    result.results.push(...allReviews.rows);
-    for (let resultsObj of result.results) {
-      resultsObj.date = new Date(Number(resultsObj.date)).toISOString();
-    }
+    data.results.push(...allReviews.rows);
     res.header('Content-Type', 'application/json');
-    console.log(JSON.stringify(result, null, 2));
-    res.send(JSON.stringify(result, null, 2));
+    console.log(JSON.stringify(data, null, 2));
+    res.send(JSON.stringify(data, null, 2));
   } catch (err) {
     console.error(err);
   }
 });
-
-// DB:
-// [
-//   {
-//     id: 3406819,
-//     product_id: 589834,
-//     rating: 4,
-//     date: '1616507071762',
-//     summary:
-//       'Optio distinctio non voluptatem aut consequatur dolore quibusdam.',
-//     body: 'Ab omnis rerum rerum. Tenetur sint pariatur excepturi ut architecto autem commodi nihil. Voluptatibus neque sint voluptatem minima ut amet sequi. Laudantium quis necessitatibus nihil aliquid repudiandae eum sit. Consequuntur in at.',
-//     recommend: true,
-//     reported: false,
-//     reviewer_name: 'Irwin_Marvin94',
-//     reviewer_email: 'Harrison21@yahoo.com',
-//     response: 'null',
-//     helpfulness: 2,
-//   },
-// ];
-
-// GOAL:
-// {
-//   "product": "2",
-//   "page": 0,
-//   "count": 5,
-//   "results": [
-//     {
-//       "review_id": 5,
-//       "rating": 3,
-//       "summary": "I'm enjoying wearing these shades",
-//       "recommend": false,
-//       "response": null,
-//       "body": "Comfortable and practical.",
-//       "date": "2019-04-14T00:00:00.000Z",
-//       "reviewer_name": "shortandsweeet",
-//       "helpfulness": 5,
-//       "photos": [{
-//           "id": 1,
-//           "url": "urlplaceholder/review_5_photo_number_1.jpg"
-//         },
-//         {
-//           "id": 2,
-//           "url": "urlplaceholder/review_5_photo_number_2.jpg"
-//         },
-//       ]
-//     },
-//     {
-//       "review_id": 3,
-//       "rating": 4,
-//       "summary": "I am liking these glasses",
-//       "recommend": false,
-//       "response": "Glad you're enjoying the product!",
-//       "body": "They are very dark. But that's good because I'm in very sunny spots",
-//       "date": "2019-06-23T00:00:00.000Z",
-//       "reviewer_name": "bigbrotherbenjamin",
-//       "helpfulness": 5,
-//       "photos": [],
-//     },
-//   ]
-// }
-
+// 232059
 // GET REVIEW METADATA
 app.get('/reviews/meta', async (req, res) => {
-  const { product_id } = req.query;
+  const { product_id = '40344' } = req.query;
+
+  //   const queryStr = `SELECT product_id, json_build_object(
+  // '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
+  // '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
+  // '3', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
+  // '4', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
+  // '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
+  // 'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
+  // 'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended, (json_build_object(
+  //   'Size', (json_build_object(
+  //     'id', 1, 'value', 1)))) AS characteristics, (json_build_object(
+  //       'id', 1, 'value', 1)) AS Width, (json_build_object(
+  //         'id', 1, 'value', 1)) AS Comfort FROM reviews WHERE product_id = ${product_id} GROUP BY reviews.product_id;`;
+
+  const queryStr = `SELECT product_id, json_build_object(
+  '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
+  '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
+  '3', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
+  '4', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
+  '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
+  'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
+  'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended, (json_build_object(
+    'Size', (json_build_object(
+      'id', 1, 'value', 1)))) AS characteristics, (json_build_object(
+        'id', 1, 'value', 1)) AS Width, (json_build_object(
+          'id', 1, 'value', 1)) AS Comfort FROM reviews WHERE product_id = ${product_id} GROUP BY reviews.product_id;`;
+
   try {
-    const allReviews = await pool.query('SELECT * FROM reviews;');
-    console.log('REVIEWS: ', allReviews.rows[0]);
-    res.json(allReviews.rows[0]);
+    const allMetaDataReviews = await pool.query(queryStr);
+    res.header('Content-Type', 'application/json');
+    console.log(JSON.stringify(allMetaDataReviews.rows, null, 2));
+    res.send(JSON.stringify(allMetaDataReviews.rows, null, 2));
+    // console.log(JSON.stringify(data, null, 2));
+    // res.send(JSON.stringify(data, null, 2));
   } catch (err) {
     console.error(err);
   }
 });
+// GOAL:
+// {
+//   "product_id": "40344",
+//   "ratings": {
+//     "1": "17",
+//     "2": "17",
+//     "3": "50",
+//     "4": "63",
+//     "5": "171"
+//   },
+//   "recommended": {
+//     "false": "82",
+//     "true": "236"
+//   },
+//   "characteristics": {
+//     "Fit": {
+//       "id": 135219,
+//       "value": "2.8507462686567164"
+//     },
+//     "Length": {
+//       "id": 135220,
+//       "value": "2.8283582089552239"
+//     },
+//     "Comfort": {
+//       "id": 135221,
+//       "value": "3.1127819548872180"
+//     },
+//     "Quality": {
+//       "id": 135222,
+//       "value": "3.2967741935483871"
+//     }
+//   }
+// }
 
 // ADD REVIEW
 app.post('/reviews', async (req, res) => {
@@ -138,9 +138,15 @@ app.post('/reviews', async (req, res) => {
     email,
     photos,
     characteristics,
-  } = req.query;
+  } = req.body;
+
+  const addReviewQueryStr = `INSERT INTO reviews (product_id, rating, summary, body, recommend, reviewer_name, reviewer_email, helpfulness) VALUES (${product_id}, ${rating}, ${summary}, ${body}, ${recommend}, ${name}, ${email});`;
+
+  const addPhotosQueryStr = `INSERT INTO photos (review_id, url) VALUES (${product_id}, ${photos});`;
+
+  const addCharacteristicsQueryStr = `INSERT INTO characteristics (review_id, id, value) VALUES (${product_id}, ${characteristics});`;
   try {
-    const allReviews = await pool.query('SELECT * FROM reviews;');
+    const allReviews = await pool.query(addReviewQueryStr);
     console.log('REVIEWS: ', allReviews.rows[0]);
     res.json(allReviews.rows[0]);
   } catch (err) {
@@ -150,11 +156,13 @@ app.post('/reviews', async (req, res) => {
 
 // MARK REVIEW HELPFUL
 app.put('/reviews/:review_id/helpful', async (req, res) => {
-  const { review_id } = req.query;
+  const { review_id } = req.params;
+
+  const queryStr = `UPDATE reviews SET helpfulness = helpfulness + 1 WHERE id = ${review_id};`;
+
   try {
-    const allReviews = await pool.query('SELECT * FROM reviews;');
-    console.log('REVIEWS: ', allReviews.rows[0]);
-    res.json(allReviews.rows[0]);
+    await pool.query(queryStr);
+    res.sendStatus(204);
   } catch (err) {
     console.error(err);
   }
@@ -162,16 +170,15 @@ app.put('/reviews/:review_id/helpful', async (req, res) => {
 
 // REPORT REVIEW
 app.put('/reviews/:review_id/report', async (req, res) => {
-  const { review_id } = req.query;
+  const { review_id } = req.params;
+
+  const queryStr = `UPDATE reviews SET reported = true WHERE id = ${review_id};`;
   try {
-    const allReviews = await pool.query('SELECT * FROM reviews;');
-    console.log('REVIEWS: ', allReviews.rows[0]);
-    res.json(allReviews.rows[0]);
+    await pool.query(queryStr);
+    res.sendStatus(204);
   } catch (err) {
     console.error(err);
   }
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
-
-// new Date(1619059182968).toISOString();
