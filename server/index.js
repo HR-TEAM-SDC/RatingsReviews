@@ -68,6 +68,8 @@ app.get('/reviews/meta', async (req, res) => {
   //       'id', 1, 'value', 1)) AS Width, (json_build_object(
   //         'id', 1, 'value', 1)) AS Comfort FROM reviews WHERE product_id = ${product_id} GROUP BY reviews.product_id;`;
 
+  // const queryStr = `SELECT reviews.product_id, characteristics.name, AVG(characteristics_reviews.value) FROM reviews INNER JOIN characteristics ON reviews.product_id = characteristics.product_id INNER JOIN characteristics_reviews ON characteristics.id = characteristics_reviews.characteristic_id WHERE reviews.product_id = 1 GROUP BY characteristics.name, reviews.product_id`;
+
   const queryStr = `SELECT product_id, json_build_object(
   '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
   '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
