@@ -61,5 +61,7 @@ COPY characteristics_reviews(id, characteristic_id, review_id, value) FROM '/pri
 /* COPY characteristics_reviews(id, characteristic_id, review_id, value) FROM '/private/tmp/test_characteristics_reviews.csv' DELIMITER ',' CSV HEADER; */
 
 
-
-
+-- CREATE INDEX reviews_product_id_index ON reviews(product_id);
+-- CREATE INDEX photos_review_id_index ON photos(review_id);
+-- CREATE INDEX chars_product_id_index ON characteristics(product_id);
+-- CREATE INDEX chars_reviews_char_id_index ON characteristics_reviews(characteristic_id);
