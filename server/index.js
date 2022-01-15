@@ -53,32 +53,29 @@ app.get('/reviews', async (req, res) => {
 // 232059
 // GET REVIEW METADATA
 app.get('/reviews/meta', async (req, res) => {
-  const { product_id = '1000011' } = req.query;
+  const { product_id = '40344' } = req.query;
 
-  // const queryStr = `SELECT product_id, json_build_object(
-  // '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
-  // '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
-  // '3', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
-  // '4', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
-  // '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
-  // 'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
-  // 'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended, (json_build_object(
-  //   (SELECT name FROM characteristics c WHERE c.product_id = ${product_id}), json_build_object('id', 7, 'value', 9))) AS characteristics FROM reviews WHERE product_id = ${product_id} GROUP BY reviews.product_id;`;
-
-  const queryStr = `SELECT product_id, json_build_object(
-  '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
-  '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
-  '3', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
-  '4', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
-  '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
-  'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
-  'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended, json_object_agg(characteristics.name, json_build_object('id', characteristics_reviews.id, 'value', characteristics_reviews.value)) AS characteristics FROM reviews LEFT JOIN characteristics_reviews ON characteristics_reviews.characteristic_id = characteristics.id WHERE product_id = ${product_id} GROUP BY reviews.product_id;`;
+  const queryStr = `SELECT reviews.product_id, json_build_object(
+   '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
+   '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
+   '3', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
+   '4', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
+   '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
+   'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
+   'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended,
+    json_object_agg(characteristics.name, json_build_object('id', characteristics_reviews.id, 'value', characteristics_reviews.value)) 
+    AS characteristics
+  FROM reviews
+  LEFT JOIN characteristics ON characteristics.product_id = reviews.product_id
+  LEFT JOIN characteristics_reviews ON characteristics_reviews.characteristic_id = characteristics.id
+  WHERE reviews.product_id = ${product_id}
+  GROUP BY reviews.product_id;`;
 
   try {
     const allMetaDataReviews = await pool.query(queryStr);
     res.header('Content-Type', 'application/json');
-    console.log(JSON.stringify(allMetaDataReviews.rows, null, 2));
-    res.send(JSON.stringify(allMetaDataReviews.rows, null, 2));
+    console.log(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
+    res.send(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
     // console.log(JSON.stringify(data, null, 2));
     // res.send(JSON.stringify(data, null, 2));
   } catch (err) {
