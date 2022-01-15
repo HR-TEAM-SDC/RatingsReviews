@@ -50,7 +50,7 @@ app.get('/reviews', async (req, res) => {
     console.error(err);
   }
 });
-// 232059
+
 // GET REVIEW METADATA
 app.get('/reviews/meta', async (req, res) => {
   const { product_id = '40344' } = req.query;
@@ -63,7 +63,7 @@ app.get('/reviews/meta', async (req, res) => {
    '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
    'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
    'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended,
-    json_object_agg(characteristics.name, json_build_object('id', characteristics_reviews.id, 'value', characteristics_reviews.value)) 
+    json_object_agg(characteristics.name, json_build_object('id', characteristics_reviews.id, 'value', (SELECT AVG(value) FROM characteristics_reviews WHERE characteristics_reviews.characteristic_id = characteristics.id)))
     AS characteristics
   FROM reviews
   LEFT JOIN characteristics ON characteristics.product_id = reviews.product_id
@@ -76,45 +76,10 @@ app.get('/reviews/meta', async (req, res) => {
     res.header('Content-Type', 'application/json');
     console.log(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
     res.send(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
-    // console.log(JSON.stringify(data, null, 2));
-    // res.send(JSON.stringify(data, null, 2));
   } catch (err) {
     console.error(err);
   }
 });
-// GOAL:
-// {
-//   "product_id": "40344",
-//   "ratings": {
-//     "1": "17",
-//     "2": "17",
-//     "3": "50",
-//     "4": "63",
-//     "5": "171"
-//   },
-//   "recommended": {
-//     "false": "82",
-//     "true": "236"
-//   },
-//   "characteristics": {
-//     "Fit": {
-//       "id": 135219,
-//       "value": "2.8507462686567164"
-//     },
-//     "Length": {
-//       "id": 135220,
-//       "value": "2.8283582089552239"
-//     },
-//     "Comfort": {
-//       "id": 135221,
-//       "value": "3.1127819548872180"
-//     },
-//     "Quality": {
-//       "id": 135222,
-//       "value": "3.2967741935483871"
-//     }
-//   }
-// }
 
 // ADD REVIEW
 app.post('/reviews', async (req, res) => {
