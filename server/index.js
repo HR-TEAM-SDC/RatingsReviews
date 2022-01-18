@@ -150,16 +150,21 @@ app.post('/reviews', async (req, res) => {
         INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness)
         VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )
         RETURNING id
+      ),
+      photos_insert AS (
+        INSERT INTO photos(review_id, url)
+        VALUES( (SELECT id FROM review_insert), $9 )
+        RETURNING id
       )
       INSERT INTO characteristics_reviews(characteristic_id, review_id, value)
       VALUES( UNNEST($10::int[]), (SELECT id FROM review_insert), UNNEST($11::int[]) )`;
     } else {
-      queryStr = `INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness)VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )`;
+      queryStr = `INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness) 
+      VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )`;
     }
   }
   try {
-    const postedReview = await pool.query(queryStr, queryArgs);
-    console.log(postedReview.rows[0]);
+    await pool.query(queryStr, queryArgs);
     res.sendStatus(201);
   } catch (err) {
     console.error(err);
