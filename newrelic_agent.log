@@ -1,0 +1,965 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:29.404Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:30.129Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:30.672Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:32.737Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:32.738Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:38.352Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:38.354Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BVa9Z4O1_fkqADPGB0nQsgdh5OYAAAgBAAAnIQEAABz3AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:38.354Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:38.358Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:38.363Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":7415,"time":"2022-01-17T03:42:39.367Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:00.428Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:01.392Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:01.919Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:02.530Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:02.530Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:11.013Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:11.013Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BfLydFTuE-ZBADPGB0nQsgdh5P2sAAgBAAAnIQEAADhRAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:11.013Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:11.015Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:11.018Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14417,"time":"2022-01-17T05:23:12.086Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:36.154Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:36.609Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:37.029Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:37.639Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:37.639Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:40.635Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:40.636Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BQhKufzMa_GbADPGB0nQsgdh5P2sAAgBAAAnIQEAADjDAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:40.636Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:40.638Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:40.641Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14531,"time":"2022-01-17T05:23:41.643Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:52.405Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:52.708Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:52.937Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:53.403Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:53.403Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:55.395Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:55.396Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXExEHjY9vCcADPGB0nQsgdh5P2sAAgBAAAnIQEAADj2AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:55.396Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:55.397Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:55.401Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":14582,"time":"2022-01-17T05:23:56.405Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:38.632Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:39.338Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:39.720Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:40.343Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:40.343Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:43.512Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:43.512Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BSHWIWz0K4UZADPGB0nQsgdh5QNMAAgBAAAnIQEAADr-AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:43.513Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:43.514Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:43.519Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15102,"time":"2022-01-17T05:47:44.526Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:49.404Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:49.884Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:50.139Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:50.648Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:50.648Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:54.455Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:54.455Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bf_dBDKqFl_8ADPGB0nQsgdh5QNMAAgBAAAnIQEAADspAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:54.455Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:54.457Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:54.460Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":15145,"time":"2022-01-17T05:47:55.461Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:45.058Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:45.546Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:45.838Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:46.415Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:46.415Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:50.483Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:50.484Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BaU164CLyKCMADPGB0nQsgdh5QysAAgBAAAnIQEAAEUxAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:50.484Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:50.485Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:50.489Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17713,"time":"2022-01-17T06:27:51.489Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:27:56.666Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:27:57.036Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:27:57.291Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:27:57.786Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:27:57.786Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:28:02.624Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:28:02.625Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bc8aszi6mKwLADPGB0nQsgdh5QzoAAgBAAAnIQEAAEVoAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:28:02.625Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:28:02.626Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:28:02.630Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17768,"time":"2022-01-17T06:28:03.635Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:28:40.940Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:28:41.561Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:28:42.018Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:28:43.151Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:28:43.151Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:29:05.513Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:29:05.514Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BdQCM3qcnRQ3ADPGB0nQsgdh5Q0kAAgBAAAnIQEAAEW6AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:29:05.515Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:29:05.517Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:29:05.521Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":17850,"time":"2022-01-17T06:29:06.526Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:51.959Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:52.425Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:52.711Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:53.305Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:53.305Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:56.089Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:56.089Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BQHT5HP1m7x3ADPGB0nQsgdh5Q4UAAgBAAAnIQEAAEcoAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:56.089Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:56.090Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:56.095Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18216,"time":"2022-01-17T06:32:57.097Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18266,"time":"2022-01-17T06:33:09.000Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18266,"time":"2022-01-17T06:33:09.474Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18266,"time":"2022-01-17T06:33:09.797Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18266,"time":"2022-01-17T06:33:10.427Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18266,"time":"2022-01-17T06:33:10.427Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:38.914Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:39.338Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:39.652Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:40.391Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:40.391Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:44.012Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:44.013Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BS69GreDAAIvADPGB0nQsgdh5Q4UAAgBAAAnIQEAAEiKAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:44.013Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:44.014Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:44.017Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18570,"time":"2022-01-17T06:33:45.023Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:33:54.774Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:33:55.083Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:33:55.338Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:33:55.701Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:33:55.701Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:34:00.035Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:34:00.036Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BWBYXymrnZv1ADPGB0nQsgdh5Q5QAAgBAAAnIQEAAEixAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:34:00.036Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:34:00.038Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:34:00.042Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18609,"time":"2022-01-17T06:34:01.047Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:36:42.100Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:36:42.637Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:36:42.950Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:36:43.693Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:36:43.693Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:37:38.488Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:37:38.488Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BYjZfReMRQN_ADPGB0nQsgdh5Q8EAAgBAAAnIQEAAEmMAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:37:38.489Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:37:38.490Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:37:38.495Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":18828,"time":"2022-01-17T06:37:39.498Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:22.949Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:23.519Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:23.804Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:24.369Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:24.370Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:27.012Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:27.013Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BQ6C6O63XRc0ADPGB0nQsgdh5Q-4AAgBAAAnIQEAAEquAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:27.013Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:27.014Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:27.018Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19118,"time":"2022-01-17T06:40:28.019Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19199,"time":"2022-01-17T06:41:06.941Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19199,"time":"2022-01-17T06:41:07.321Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19199,"time":"2022-01-17T06:41:07.625Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19199,"time":"2022-01-17T06:41:08.051Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19199,"time":"2022-01-17T06:41:08.051Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19264,"time":"2022-01-17T06:41:36.070Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19264,"time":"2022-01-17T06:41:36.354Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19264,"time":"2022-01-17T06:41:36.608Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19264,"time":"2022-01-17T06:41:37.091Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19264,"time":"2022-01-17T06:41:37.091Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:07.015Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:07.536Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:07.958Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:08.651Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:08.651Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:22.295Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:22.295Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bbi8UcnTcd0DADPGB0nQsgdh5RBsAAgBAAAnIQEAAEu9AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:22.296Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:22.299Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:22.305Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19389,"time":"2022-01-17T06:43:23.310Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:51.871Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:52.475Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:53.016Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:53.699Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:53.699Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:56.972Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:56.973Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BW-JSZ_xewuQADPGB0nQsgdh5RFcAAgBAAAnIQEAAEzjAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:56.973Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:56.975Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:56.978Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19683,"time":"2022-01-17T06:46:57.979Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:28.492Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:28.977Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:29.440Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:30.451Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:30.451Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:33.947Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:33.948Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BbLTpGeysD-pADPGB0nQsgdh5RGYAAgBAAAnIQEAAE15AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:33.948Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:33.949Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:33.956Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19833,"time":"2022-01-17T06:48:34.957Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:29.526Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:30.113Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:30.425Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:31.088Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:31.088Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:34.832Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:34.832Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXdCqyubmkhnADPGB0nQsgdh5RHUAAgBAAAnIQEAAE3qAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:34.833Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:34.835Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:34.840Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":19946,"time":"2022-01-17T06:49:35.845Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:06.640Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:07.095Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:07.569Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:08.219Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:08.220Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:11.432Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:11.432Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BSJ8fprwcOSYADPGB0nQsgdh5RJMAAgBAAAnIQEAAE6BAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:11.433Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:11.434Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:11.439Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20097,"time":"2022-01-17T06:51:12.441Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:47.207Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:48.285Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:48.894Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:50.046Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:50.046Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:53.268Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:53.268Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BVHMgFrAXjLpADPGB0nQsgdh5RJMAAgBAAAnIQEAAE7gAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:53.268Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:53.270Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:51:53.276Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20192,"time":"2022-01-17T06:52:00.327Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:18.096Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:18.345Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:18.672Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:19.144Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:19.145Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:21.675Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:21.676Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BSkVh2-OaK44ADPGB0nQsgdh5RKIAAgBAAAnIQEAAE8vAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:21.676Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:21.679Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20271,"time":"2022-01-17T06:52:21.696Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:42.233Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:42.628Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:42.787Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:43.451Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:43.451Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:45.771Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:45.771Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Ba3kk6SBNj-UADPGB0nQsgdh5RLEAAgBAAAnIQEAAE-uAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:45.771Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:45.772Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:45.776Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20398,"time":"2022-01-17T06:53:46.778Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:07.808Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:08.195Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:08.652Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:09.158Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:09.158Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:11.375Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:11.375Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BdpO-ZGjFhwnADPGB0nQsgdh5RMAAAgBAAAnIQEAAFDbAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:11.375Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:11.377Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:11.380Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20699,"time":"2022-01-17T06:54:12.385Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:53.431Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:54.176Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:54.844Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:55.960Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:55.961Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:58.970Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:58.971Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BaciVn21wRD5ADPGB0nQsgdh5RO0AAgBAAAnIQEAAFGkAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:58.971Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:58.972Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:58.978Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":20900,"time":"2022-01-17T06:56:59.982Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:49.333Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:49.675Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:49.987Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:50.616Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:50.617Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:53.870Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:53.870Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BRD7K2Xo4tniADPGB0nQsgdh5RPwAAgBAAAnIQEAAFJmAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:53.871Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:53.872Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:53.876Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21094,"time":"2022-01-17T06:58:54.879Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:02.341Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:02.809Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:03.145Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:03.825Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:03.825Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:06.559Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:06.559Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Be_lT_Cig7GEADPGB0nQsgdh5RRoAAgBAAAnIQEAAFLiAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:06.559Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:06.560Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:06.564Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":21218,"time":"2022-01-17T07:00:07.569Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:50.212Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:50.711Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:51.031Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:51.974Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:51.974Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:54.685Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:54.686Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BZVJs92v_kVpADPGB0nQsgdh5Rb8AAgBAAAnIQEAAFY5AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:54.687Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:54.688Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:54.694Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22073,"time":"2022-01-17T07:11:55.695Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:49.977Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:50.564Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:50.937Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:51.708Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:51.709Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:54.780Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:54.781Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BaibfdmrrYCkADPGB0nQsgdh5Rd0AAgBAAAnIQEAAFb0AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:54.781Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:54.782Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:54.787Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22260,"time":"2022-01-17T07:13:55.790Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:52.485Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:53.096Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:53.483Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:54.091Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:54.091Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:56.837Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:56.838Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BWrh4q6SfR8uADPGB0nQsgdh5RhkAAgBAAAnIQEAAFfuAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:56.838Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:56.839Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:16:56.843Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22510,"time":"2022-01-17T07:17:22.526Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:02.371Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:02.885Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:03.291Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:03.832Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:03.833Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:06.518Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:06.518Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BY1Fsx_SjIZeADPGB0nQsgdh5RjcAAgBAAAnIQEAAFi-AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:06.518Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:06.520Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:06.526Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":22718,"time":"2022-01-17T07:19:07.528Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:12.780Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:15.555Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:17.901Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:21.353Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:21.354Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:34.358Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:34.359Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bcqnixq78qiAADPGB0nQsgdh5bE0AAgBAAAnIQEAAGPzAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:34.359Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:34.469Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:34.498Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":25587,"time":"2022-01-17T18:09:35.505Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:15:56.292Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:15:57.158Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:15:57.694Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:15:58.511Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:15:58.511Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:16:01.592Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:16:01.592Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BYVJag_gLfvAADPGB0nQsgdh5bLYAAgBAAAnIQEAAGfjAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:16:01.593Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:16:01.595Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:16:01.600Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":26595,"time":"2022-01-17T18:16:02.604Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:18.846Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:19.370Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:19.686Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:20.230Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:20.230Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:23.297Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:23.297Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BUfWMMeO4LwdADPGB0nQsgdh5dHIAAgBAAAnIQEAAIKTAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:23.297Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:23.299Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:23.304Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33427,"time":"2022-01-17T20:28:24.309Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:51.925Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:52.620Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:53.007Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:53.633Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:53.633Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:56.273Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:56.274Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BSgmb4u5xEM9ADPGB0nQsgdh5dJAAAgBAAAnIQEAAINgAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:56.274Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:56.275Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:56.280Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33632,"time":"2022-01-17T20:30:57.281Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:03.858Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:04.523Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:05.033Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:06.266Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:06.266Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:09.427Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:09.427Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BbQ1XIvQjfPIADPGB0nQsgdh5dL0AAgBAAAnIQEAAIQ1AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:09.428Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:09.429Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:09.433Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33845,"time":"2022-01-17T20:33:10.436Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:52.749Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:53.626Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:53.858Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:54.375Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:54.376Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:57.107Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:57.108Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bf99lqLVpVpfADPGB0nQsgdh5dL0AAgBAAAnIQEAAISaAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:57.108Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:57.109Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:57.113Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":33946,"time":"2022-01-17T20:33:58.116Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:03.107Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:03.918Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:04.383Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:05.092Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:05.092Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:07.966Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:07.967Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BaJuCcuGDGBoADPGB0nQsgdh5dNsAAgBAAAnIQEAAIUJAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:07.967Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:07.968Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:07.983Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34057,"time":"2022-01-17T20:35:08.984Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:31.641Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:31.958Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:32.216Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:32.604Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:32.605Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:35.024Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:35.024Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BRGz4lG0xMe9ADPGB0nQsgdh5dNsAAgBAAAnIQEAAIVHAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:35.025Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:35.026Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:35.030Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34119,"time":"2022-01-17T20:35:36.035Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:05.400Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:06.099Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:06.479Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:07.113Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:07.113Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:09.583Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:09.584Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BbPZTPujwQayADPGB0nQsgdh5dOoAAgBAAAnIQEAAIWPAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:09.584Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:09.585Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:09.589Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34191,"time":"2022-01-17T20:36:10.590Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:48.786Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:49.268Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:49.636Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:50.393Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:50.393Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:53.135Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:53.135Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BZqXkzG0Ck1QADPGB0nQsgdh5dOoAAgBAAAnIQEAAIXyAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:53.136Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:53.137Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:53.141Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34290,"time":"2022-01-17T20:36:54.142Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:39:59.098Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:39:59.627Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:00.083Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:00.956Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:00.956Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:03.243Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:03.244Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BV9s6HiFWYWnADPGB0nQsgdh5dSYAAgBAAAnIQEAAIcDAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:03.244Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:03.246Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:03.252Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34563,"time":"2022-01-17T20:40:04.257Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:52.618Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:53.100Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:53.465Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:53.927Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:53.928Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:56.879Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:56.879Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BZHrh-2-uKmfADPGB0nQsgdh5dUQAAgBAAAnIQEAAIf_AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:56.879Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:56.880Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:56.884Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34815,"time":"2022-01-17T20:42:57.888Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:10.432Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:10.849Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:10.973Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:11.518Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:11.518Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:14.219Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:14.219Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BTph2biILEJCADPGB0nQsgdh5dVMAAgBAAAnIQEAAIg3AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:14.219Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:14.220Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:14.224Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":34871,"time":"2022-01-17T20:43:15.229Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:00.579Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:00.972Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:01.212Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:01.753Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:01.753Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:04.874Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:04.874Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BU9TXSfqDRwsADPGB0nQsgdh5dZ4AAgBAAAnIQEAAIm-AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:04.875Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:04.876Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:04.880Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35262,"time":"2022-01-17T20:48:05.881Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:06.659Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:07.180Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:07.476Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:07.950Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:07.950Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:10.626Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:10.626Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BR99-KTIUJfoADPGB0nQsgdh5da0AAgBAAAnIQEAAIo5AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:10.626Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:10.627Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:10.631Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35385,"time":"2022-01-17T20:49:11.635Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:49.707Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:50.309Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:50.551Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:51.205Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:51.205Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:53.883Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:53.883Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BTNs6t692FztADPGB0nQsgdh5da0AAgBAAAnIQEAAIqDAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:53.883Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:53.885Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:53.888Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35459,"time":"2022-01-17T20:49:54.893Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:15.397Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:15.919Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:16.285Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:16.737Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:16.737Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:19.056Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:19.056Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BZ3qZFXBNVQGADPGB0nQsgdh5dcsAAgBAAAnIQEAAIsBAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:19.056Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:19.058Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:19.061Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35585,"time":"2022-01-17T20:51:20.062Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:31.360Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:31.793Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:32.026Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:32.528Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:32.528Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:35.132Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:35.133Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BbUfXhSMB2scADPGB0nQsgdh5dekAAgBAAAnIQEAAIu_AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:35.133Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:35.134Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:35.138Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":35775,"time":"2022-01-17T20:53:36.139Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:54.014Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:54.554Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:55.139Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:56.187Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:56.187Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:58.988Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:58.989Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bfl7fcW4JPaXADPGB0nQsgdh5diUAAgBAAAnIQEAAI0QAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:58.989Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:58.990Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:58.994Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36112,"time":"2022-01-17T20:57:59.997Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:56.593Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:56.867Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:57.146Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:57.546Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:57.546Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:59.878Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:59.878Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BUkF-lzX2tr8ADPGB0nQsgdh5djQAAgBAAAnIQEAAI2LAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:59.878Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:59.880Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:58:59.884Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36235,"time":"2022-01-17T20:59:00.889Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:10.002Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:10.535Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:10.840Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:11.414Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:11.414Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:14.407Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:14.408Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BfWGO_KyDrZOADPGB0nQsgdh5dn8AAgBAAAnIQEAAI7kAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:14.408Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:14.409Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:14.413Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36580,"time":"2022-01-17T21:03:15.417Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:03.552Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:04.106Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:04.467Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:05.304Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:05.304Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:07.460Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:07.460Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BT2qNDSuOCVdADPGB0nQsgdh5do4AAgBAAAnIQEAAI86AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:07.460Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:07.462Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:07.465Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36666,"time":"2022-01-17T21:04:08.469Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:13.728Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:14.291Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:14.757Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:15.355Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:15.355Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:17.442Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:17.443Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bfnfsja5vw1UADPGB0nQsgdh5drsAAgBAAAnIQEAAJBJAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:17.443Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:17.444Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:17.448Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":36937,"time":"2022-01-17T21:07:18.454Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:12:58.322Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:12:59.042Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:12:59.427Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:00.096Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:00.096Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:03.724Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:03.724Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BVy0GH6A4YNnADPGB0nQsgdh5dxUAAgBAAAnIQEAAJH7AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:03.724Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:03.726Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:03.730Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37371,"time":"2022-01-17T21:13:04.734Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:12.614Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:13.208Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:13.612Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:14.179Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:14.179Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:16.621Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:16.623Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXRc6xGGz4x5ADPGB0nQsgdh5dxUAAgBAAAnIQEAAJIvAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:16.623Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:16.625Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:16.629Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37423,"time":"2022-01-17T21:13:17.632Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:13:54.255Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:13:54.676Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:13:55.081Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:13:55.819Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:13:55.819Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:14:08.031Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:14:08.032Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bf5Uj46dhNmgADPGB0nQsgdh5dyQAAgBAAAnIQEAAJJ9AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:14:08.032Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:14:08.033Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:14:08.041Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37501,"time":"2022-01-17T21:14:09.046Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:47.164Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:47.565Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:47.920Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:48.541Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:48.541Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:51.366Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:51.367Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BWHAzGnkOYZIADPGB0nQsgdh5dyQAAgBAAAnIQEAAJLcAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:51.367Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:51.369Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:51.374Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37596,"time":"2022-01-17T21:14:52.378Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:37.576Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:38.179Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:38.415Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:39.094Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:39.094Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:42.487Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:42.488Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXr2J7zzpUiCADPGB0nQsgdh5dzMAAgBAAAnIQEAAJM5AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:42.488Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:42.489Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:42.493Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37689,"time":"2022-01-17T21:15:43.498Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:45.630Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:46.115Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:46.452Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:47.227Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:47.227Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:50.152Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:50.152Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BTtC_ZnLf9h3ADPGB0nQsgdh5d1EAAgBAAAnIQEAAJQQAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:50.153Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:50.156Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:50.161Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":37904,"time":"2022-01-17T21:17:51.162Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:40.755Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:41.214Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:41.492Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:42.041Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:42.041Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:44.980Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:44.981Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXPcXqL7KOhOADPGB0nQsgdh5d2AAAgBAAAnIQEAAJR-AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:44.981Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:44.986Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:44.990Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38014,"time":"2022-01-17T21:18:45.995Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:22.519Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:23.030Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:23.287Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:23.790Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:23.790Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:26.698Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:26.699Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BR9RdjHXmgocADPGB0nQsgdh5d28AAgBAAAnIQEAAJTIAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:26.699Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:26.700Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:26.704Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38088,"time":"2022-01-17T21:19:27.712Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:35.217Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:35.465Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:35.703Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:36.168Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:36.168Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:38.932Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:38.933Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bck4Z5_W1NA0ADPGB0nQsgdh5d28AAgBAAAnIQEAAJT9AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:38.933Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:38.935Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:38.939Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38141,"time":"2022-01-17T21:19:39.944Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:34.984Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:35.563Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:35.746Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:36.209Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:36.210Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:38.904Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:38.904Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BRhjceXr9ZsXADPGB0nQsgdh5d34AAgBAAAnIQEAAJVoAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:38.904Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:38.905Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:38.909Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38248,"time":"2022-01-17T21:20:39.911Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:28.934Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:29.363Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:29.791Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:30.445Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:30.445Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:33.606Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:33.607Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BUmKXn3NAIstADPGB0nQsgdh5d5wAAgBAAAnIQEAAJYcAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:33.607Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:33.608Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:33.614Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":38428,"time":"2022-01-17T21:22:34.618Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:47.209Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:47.656Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:48.032Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:48.856Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:48.856Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:53.021Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:53.021Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Ba0-_QrasgVSADPGB0nQsgdh5eF8AAgBAAAnIQEAAJn1AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:53.021Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:53.024Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:53.028Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39413,"time":"2022-01-17T21:35:55.712Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:33.080Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:33.620Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:34.058Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:34.628Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:34.628Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:41.225Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:41.225Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BVWf-IjdEgj3ADPGB0nQsgdh5eIwAAgBAAAnIQEAAJrlAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:41.225Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:41.227Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:41.234Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39653,"time":"2022-01-17T21:38:46.236Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:52.720Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:53.393Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:53.778Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:54.361Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:54.362Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:57.166Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:57.166Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BcASfi3IqRn9ADPGB0nQsgdh5eJsAAgBAAAnIQEAAJtmAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:57.167Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:57.168Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:57.172Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39782,"time":"2022-01-17T21:39:58.178Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:38.246Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:38.812Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:39.173Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:40.047Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:40.047Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:49.195Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:49.196Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BcmgdgWTPurnADPGB0nQsgdh5eLkAAgBAAAnIQEAAJwGAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:49.196Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:49.197Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:49.201Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":39942,"time":"2022-01-17T21:41:50.204Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:01.293Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:01.930Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:02.464Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:03.394Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:03.394Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:07.006Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:07.008Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BVWcmlnO5Y3pADPGB0nQsgdh5e1wAAgBAAAnIQEAAJ43AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:07.008Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:07.009Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:07.020Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40503,"time":"2022-01-17T22:26:10.767Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:38.040Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:38.555Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:38.930Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:39.724Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:39.724Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:42.924Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:42.924Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BYNciIL3L8jyADPGB0nQsgdh5e2sAAgBAAAnIQEAAJ7VAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:42.924Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:42.925Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:42.929Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40661,"time":"2022-01-17T22:27:43.936Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:04.634Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:05.303Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:05.701Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:06.461Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:06.461Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:09.447Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:09.448Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXS5vSeOO6QMADPGB0nQsgdh5e3oAAgBAAAnIQEAAJ8XAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:09.448Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:09.451Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:09.455Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":40727,"time":"2022-01-17T22:28:10.460Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:40.532Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:41.042Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:41.373Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:42.227Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:42.227Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:45.267Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:45.267Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BZQmeZTq4tRdADPGB0nQsgdh5e8UAAgBAAAnIQEAAKDLAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:45.268Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:45.270Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:45.274Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41163,"time":"2022-01-17T22:33:46.274Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:31.685Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:32.375Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:32.883Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:33.632Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:33.632Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:36.398Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:36.399Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BQxJIG6SqubLADPGB0nQsgdh5fB8AAgBAAAnIQEAAKKGAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:36.399Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:36.401Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:36.405Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41606,"time":"2022-01-17T22:39:37.411Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:03.865Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:04.300Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:04.648Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:06.175Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:06.175Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:10.585Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:10.585Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BTliy9uAfsIxADPGB0nQsgdh5fC4AAgBAAAnIQEAAKLNAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:10.586Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:10.587Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:10.591Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41677,"time":"2022-01-17T22:40:11.596Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:32.443Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:33.091Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:33.558Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:34.774Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:34.774Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:38.621Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:38.621Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Bae7trzyk_xgADPGB0nQsgdh5fD0AAgBAAAnIQEAAKNiAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:38.622Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:38.623Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:38.627Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":41826,"time":"2022-01-17T22:41:39.631Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:04.818Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:05.398Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:05.824Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:06.908Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:06.908Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:10.158Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:10.159Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BeCvm77UYSC4ADPGB0nQsgdh5fOIAAgBAAAnIQEAAKZaAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:10.159Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:10.160Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:10.164Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42586,"time":"2022-01-17T22:52:29.761Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:23.744Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:24.307Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:24.864Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:26.078Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:26.078Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:29.464Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:29.465Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BYu7Vby9KVqpADPGB0nQsgdh5fPEAAgBAAAnIQEAAKb3AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:29.465Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:29.467Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:29.471Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42743,"time":"2022-01-17T22:53:30.476Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:53:59.152Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:53:59.672Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:00.158Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:00.937Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:00.937Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:03.648Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:03.648Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BVQc64zLZwi4ADPGB0nQsgdh5fQAAAgBAAAnIQEAAKdGAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:03.648Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:03.649Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:03.655Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":42822,"time":"2022-01-17T22:54:04.659Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43463,"time":"2022-01-17T23:02:31.781Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43463,"time":"2022-01-17T23:02:32.936Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43463,"time":"2022-01-17T23:02:33.604Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43463,"time":"2022-01-17T23:02:34.654Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43463,"time":"2022-01-17T23:02:34.654Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:38.004Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:38.312Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:38.565Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:39.067Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:39.067Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:41.705Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:41.706Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BTdru0Wa6E_kADPGB0nQsgdh5fXgAAgBAAAnIQEAAKn7AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:41.706Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:41.707Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:41.715Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43515,"time":"2022-01-17T23:02:42.719Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:04.392Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:04.868Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:05.294Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:06.126Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:06.127Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:09.197Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:09.198Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BXiPNui-sNBAADPGB0nQsgdh5fYcAAgBAAAnIQEAAKozAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:09.198Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:09.199Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:09.203Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":43571,"time":"2022-01-17T23:03:10.208Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:45.327Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:45.780Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:46.094Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:46.716Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:46.717Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:49.229Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:49.230Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BcACBXqjwJC9ADPGB0nQsgdh5feEAAgBAAAnIQEAAKwuAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:49.230Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:49.232Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:49.236Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":44078,"time":"2022-01-17T23:09:52.566Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:22.661Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:23.343Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:23.786Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:24.739Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:24.744Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:28.531Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:28.532Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BTi79G-msMVgADPGB0nQsgdh5fpUAAgBAAAnIQEAALIpAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:28.532Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:28.533Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:28.537Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":45609,"time":"2022-01-17T23:21:29.541Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:46.584Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:46.866Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:47.058Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:47.442Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:47.442Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:50.214Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:50.214Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BQUJOB20Pqu6ADPGB0nQsgdh5fysAAgBAAAnIQEAAAi1AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:50.214Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:50.216Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:50.220Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2229,"time":"2022-01-17T23:31:51.222Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:44.264Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:44.712Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:44.882Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:45.427Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:45.427Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:47.985Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:47.986Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID Ba5Axd28WcP6ADPGB0nQsgdh5f3YAAgBAAAnIQEAAAtAAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:47.986Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:47.987Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:47.991Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":2880,"time":"2022-01-17T23:36:48.999Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:11.625Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:12.102Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:12.901Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:13.862Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:13.862Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:16.696Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:16.697Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BQ-ryP23_7IyADPGB0nQsgdh5gHUAAgBAAAnIQEAABE5AgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:16.697Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:16.698Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:16.705Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":4409,"time":"2022-01-17T23:53:17.705Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:30.668Z","msg":"Using New Relic for Node.js. Agent version: 8.7.0; Node version: v16.13.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:31.116Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:31.645Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:32.499Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:32.499Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:36.294Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:36.295Z","msg":"Connected to collector-010.newrelic.com:443 with agent run ID BRsxuTix6J1TADPGB0nQsgdh5gPwAAgBAAAnIQEAABSTAgRJ0K9OAwAFOC43LjAADnlhc2lucy1tYnAubGFuAANTREM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:36.295Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3393031/applications/1238413134","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:36.296Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:36.300Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"yasins-mbp.lan","pid":5267,"time":"2022-01-18T00:02:37.302Z","msg":"Starting initial 1000ms harvest."}

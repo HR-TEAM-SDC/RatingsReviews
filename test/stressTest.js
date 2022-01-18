@@ -11,7 +11,7 @@ export const options = {
 
 const url = 'http://localhost:5000/reviews';
 
-// const url = 'http://localhost:5000/reviews/meta?product_id=40344';
+// const url = 'http://localhost:5000/reviews/meta';
 
 export default function () {
   const res = http.get(url);

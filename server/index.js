@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const cors = require('cors');
 const pool = require('../db/index.js');
@@ -8,12 +9,16 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
+// app.get('/loaderio-68cd13bd18c2957cb1b33c561d2cad34', (req, res) => {
+//   res.send('loaderio-68cd13bd18c2957cb1b33c561d2cad34');
+// });
+
 // GET REVIEWS
 app.get('/reviews', async (req, res) => {
   const {
     page = 1,
     count = 5,
-    product_id = '40344',
+    product_id = 40345,
     sort = 'newest',
   } = req.query;
 
@@ -32,7 +37,7 @@ app.get('/reviews', async (req, res) => {
   }
 
   const data = {
-    product: product_id,
+    product: String(product_id),
     page,
     count,
     results: [],
@@ -53,17 +58,17 @@ app.get('/reviews', async (req, res) => {
 
 // GET REVIEW METADATA
 app.get('/reviews/meta', async (req, res) => {
-  const { product_id = '40344' } = req.query;
+  const { product_id = 40346 } = req.query;
 
-  const queryStr = `SELECT reviews.product_id, json_build_object(
-   '1', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
-   '2', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
-   '3', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
-   '4', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
-   '5', (SELECT count(rating) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
-   'false', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
-   'true', (SELECT count(recommend) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended,
-    json_object_agg(characteristics.name, json_build_object('id', characteristics_reviews.id, 'value', (SELECT AVG(value) FROM characteristics_reviews WHERE characteristics_reviews.characteristic_id = characteristics.id)))
+  const queryStr = `SELECT (CAST (reviews.product_id AS TEXT)), json_build_object(
+   '1', (SELECT (CAST (count(rating) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND rating = 1),
+   '2', (SELECT (CAST (count(rating) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND rating = 2),
+   '3', (SELECT (CAST (count(rating) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND rating = 3),
+   '4', (SELECT (CAST (count(rating) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND rating = 4),
+   '5', (SELECT (CAST (count(rating) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND rating = 5)) AS ratings, json_build_object(
+   'false', (SELECT (CAST (count(recommend) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND recommend = false),
+   'true', (SELECT (CAST (count(recommend) AS TEXT)) FROM reviews WHERE product_id = ${product_id} AND recommend = true)) AS recommended,
+    json_object_agg(characteristics.name, json_build_object('id', characteristics_reviews.id, 'value', (SELECT (CAST (AVG(value) AS TEXT)) FROM characteristics_reviews WHERE characteristics_reviews.characteristic_id = characteristics.id)))
     AS characteristics
   FROM reviews
   LEFT JOIN characteristics ON characteristics.product_id = reviews.product_id
@@ -89,21 +94,73 @@ app.post('/reviews', async (req, res) => {
     summary,
     body,
     recommend,
-    name,
-    email,
+    name: reviewer_name,
+    email: reviewer_email,
     photos,
     characteristics,
   } = req.body;
 
-  const addReviewQueryStr = `INSERT INTO reviews (product_id, rating, summary, body, recommend, reviewer_name, reviewer_email, helpfulness) VALUES (${product_id}, ${rating}, ${summary}, ${body}, ${recommend}, ${name}, ${email});`;
+  const date = Math.floor(new Date().getTime() / 1000);
+  const charIDs = Object.keys(characteristics).map(Number);
+  const charValues = Object.values(characteristics);
 
-  const addPhotosQueryStr = `INSERT INTO photos (review_id, url) VALUES (${product_id}, ${photos});`;
+  const queryArgs = [
+    product_id,
+    rating,
+    date,
+    summary,
+    body,
+    recommend,
+    reviewer_name,
+    reviewer_email,
+    photos,
+    charIDs,
+    charValues,
+  ];
 
-  const addCharacteristicsQueryStr = `INSERT INTO characteristics (review_id, id, value) VALUES (${product_id}, ${characteristics});`;
+  let queryStr = ``;
+
+  if (photos.length > 0) {
+    if (charIDs.length > 0) {
+      queryStr = `WITH review_insert AS (
+        INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness)
+        VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )
+        RETURNING id
+      ),
+      photos_insert AS (
+        INSERT INTO photos(review_id, url)
+        VALUES( (SELECT id FROM review_insert), UNNEST($9::text[]) )
+        RETURNING id
+      )
+      INSERT INTO characteristics_reviews(characteristic_id, review_id, value)
+      VALUES( UNNEST($10::int[]), (SELECT id FROM review_insert), UNNEST($11::int[]) )`;
+    } else {
+      queryStr = `WITH review_insert AS (
+        INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness)
+        VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )
+        RETURNING id
+      )
+      INSERT INTO photos(review_id, url)
+      VALUES( (SELECT id FROM review_insert), UNNEST($9::text[]) )
+      RETURNING id`;
+    }
+  } else if (photos.length === 0) {
+    if (charIDs.length > 0) {
+      queryStr = `WITH review_insert AS (
+        INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness)
+        VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )
+        RETURNING id
+      )
+      INSERT INTO characteristics_reviews(characteristic_id, review_id, value)
+      VALUES( UNNEST($10::int[]), (SELECT id FROM review_insert), UNNEST($11::int[]) )`;
+    } else {
+      queryStr = `INSERT INTO reviews(product_id, rating, date, summary, body, recommend, reported, reviewer_name, reviewer_email, response, helpfulness)VALUES( $1, $2, $3, $4, $5, $6, DEFAULT, $7, $8, NULL, DEFAULT )`;
+    }
+  }
   try {
-    const allReviews = await pool.query(addReviewQueryStr);
-    console.log('REVIEWS: ', allReviews.rows[0]);
-    res.json(allReviews.rows[0]);
+    const postedReview = await pool.query(queryStr, queryArgs);
+    console.log(postedReview.rows[0]);
+    res.sendStatus(201);
   } catch (err) {
     console.error(err);
   }
