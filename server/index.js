@@ -9,9 +9,9 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
-// app.get('/loaderio-68cd13bd18c2957cb1b33c561d2cad34', (req, res) => {
-//   res.send('loaderio-68cd13bd18c2957cb1b33c561d2cad34');
-// });
+app.get('/loaderio-8d3a5a8657c9d27b70687a0e46b20b0e', (req, res) => {
+  res.send('loaderio-8d3a5a8657c9d27b70687a0e46b20b0e');
+});
 
 // GET REVIEWS
 app.get('/reviews', async (req, res) => {
