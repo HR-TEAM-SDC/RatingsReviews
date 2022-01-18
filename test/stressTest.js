@@ -9,9 +9,9 @@ export const options = {
   duration: '15s',
 };
 
-const url = 'http://localhost:5000/reviews';
+// const url = 'http://localhost:5000/reviews';
 
-// const url = 'http://localhost:5000/reviews/meta';
+const url = 'http://localhost:5000/reviews/meta';
 
 export default function () {
   const res = http.get(url);

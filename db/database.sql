@@ -78,12 +78,12 @@ CSV HEADER;
 
 
 CREATE INDEX reviews_product_id_index ON reviews(product_id);
-CREATE INDEX photos_review_id_index ON photos(review_id);
-CREATE INDEX chars_product_id_index ON characteristics(product_id);
-CREATE INDEX chars_reviews_char_id_index ON characteristics_reviews(characteristic_id);
 CREATE INDEX reviews_rating_index ON reviews(rating);
 CREATE INDEX reviews_recommend_index ON reviews(recommend);
 CREATE INDEX reviews_date_index ON reviews(date);
+CREATE INDEX reviews_helpfulness_index ON reviews(helpfulness);
+CREATE INDEX photos_review_id_index ON photos(review_id);
+CREATE INDEX chars_id_index ON characteristics(id);
+CREATE INDEX chars_product_id_index ON characteristics(product_id);
+CREATE INDEX chars_reviews_char_id_index ON characteristics_reviews(characteristic_id);
 CREATE INDEX chars_reviews_value_index ON characteristics_reviews(value);
-
-
