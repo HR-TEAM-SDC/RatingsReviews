@@ -1,7 +1,9 @@
 require('newrelic');
 const express = require('express');
 const cors = require('cors');
-const pool = require('../db/index.js');
+const { pool, client } = require('../db/index.js');
+
+const DEFAULT_EXPIRATION = 3600;
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -45,15 +47,40 @@ app.get('/reviews', async (req, res) => {
 
   const queryStr = `SELECT r.id AS review_id, r.rating, r.summary, r.recommend, r.response, r.body, TO_TIMESTAMP(r.date / 1000) AS date, r.reviewer_name, r.helpfulness, json_agg(json_build_object('id', p.id, 'url', p.url)) AS photos FROM reviews r JOIN photos p ON p.review_id = r.id WHERE r.product_id = ${product_id} GROUP BY r.id ${sortQuery} LIMIT ${count};`;
 
-  try {
-    const allReviews = await pool.query(queryStr);
-    data.results.push(...allReviews.rows);
-    res.header('Content-Type', 'application/json');
-    console.log(JSON.stringify(data, null, 2));
-    res.send(JSON.stringify(data, null, 2));
-  } catch (err) {
-    console.error(err);
-  }
+  client.get(
+    `reviews?product_id=${product_id}&count=${count}&sort=${sort}&page=${page}`,
+    async (err, reviews) => {
+      if (err) {
+        console.error(err);
+      }
+      if (reviews !== null) {
+        console.log('Cache hit');
+        return res.json(JSON.parse(reviews));
+      } else {
+        console.log('Cache miss');
+        const allReviews = await pool.query(queryStr);
+        data.results.push(...allReviews.rows);
+        redisClient.setex(
+          `reviews?product_id=${product_id}&count=${count}&sort=${sort}&page=${page}`,
+          DEFAULT_EXPIRATION,
+          JSON.stringify(data)
+        );
+        res.header('Content-Type', 'application/json');
+        // console.log(JSON.stringify(data, null, 2));
+        res.send(JSON.stringify(data, null, 2));
+      }
+    }
+  );
+
+  // try {
+  //   const allReviews = await pool.query(queryStr);
+  //   data.results.push(...allReviews.rows);
+  //   res.header('Content-Type', 'application/json');
+  //   console.log(JSON.stringify(data, null, 2));
+  //   res.send(JSON.stringify(data, null, 2));
+  // } catch (err) {
+  //   console.error(err);
+  // }
 });
 
 // GET REVIEW METADATA
@@ -197,5 +224,21 @@ app.put('/reviews/:review_id/report', async (req, res) => {
     console.error(err);
   }
 });
+
+const getOrSetCache = (key, cb) => {
+  return new Promise((resolve, reject) => {
+    redisClient.get(key, async (err, data) => {
+      if (err) {
+        return reject(err);
+      }
+      if (data !== null) {
+        return resolve(JSON.parse(data));
+      }
+      const freshData = await cb();
+      redisClient.setex(key, DEFAULT_EXPIRATION, JSON.stringify(freshData));
+      resolve(freshData);
+    });
+  });
+};
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));

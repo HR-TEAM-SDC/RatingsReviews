@@ -1,4 +1,13 @@
 const { Pool } = require('pg');
+const { createClient } = require('redis');
+
+const client = createClient();
+// const client = createClient({ url: 'http://54.153.125.69' });
+
+client.connect();
+
+client.on('connect', () => console.log('Redis connected'));
+client.on('error', error => console.log('Redis Error', error));
 
 const pool = new Pool({
   user: 'postgres',
@@ -21,4 +30,4 @@ pool.on('error', (err, client) => {
   process.exit(-1);
 });
 
-module.exports = pool;
+module.exports = { pool, client };
