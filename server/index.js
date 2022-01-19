@@ -47,30 +47,35 @@ app.get('/reviews', async (req, res) => {
 
   const queryStr = `SELECT r.id AS review_id, r.rating, r.summary, r.recommend, r.response, r.body, TO_TIMESTAMP(r.date / 1000) AS date, r.reviewer_name, r.helpfulness, json_agg(json_build_object('id', p.id, 'url', p.url)) AS photos FROM reviews r JOIN photos p ON p.review_id = r.id WHERE r.product_id = ${product_id} GROUP BY r.id ${sortQuery} LIMIT ${count};`;
 
-  client.get(
-    `reviews?product_id=${product_id}&count=${count}&sort=${sort}&page=${page}`,
-    async (err, reviews) => {
-      if (err) {
-        console.error(err);
-      }
+  client
+    .get(
+      `reviews?product_id=${product_id}&count=${count}&sort=${sort}&page=${page}`
+    )
+    .then(reviews => {
       if (reviews !== null) {
         console.log('Cache hit');
         return res.json(JSON.parse(reviews));
       } else {
         console.log('Cache miss');
-        const allReviews = await pool.query(queryStr);
-        data.results.push(...allReviews.rows);
-        redisClient.setex(
-          `reviews?product_id=${product_id}&count=${count}&sort=${sort}&page=${page}`,
-          DEFAULT_EXPIRATION,
-          JSON.stringify(data)
-        );
-        res.header('Content-Type', 'application/json');
-        // console.log(JSON.stringify(data, null, 2));
-        res.send(JSON.stringify(data, null, 2));
+        pool
+          .query(queryStr)
+          .then(allReviews => {
+            data.results.push(...allReviews.rows);
+            client.SETEX(
+              `reviews?product_id=${product_id}&count=${count}&sort=${sort}&page=${page}`,
+              DEFAULT_EXPIRATION,
+              JSON.stringify(data)
+            );
+            res.send(JSON.stringify(data));
+          })
+          .catch(err => {
+            console.error(err);
+          });
       }
-    }
-  );
+    })
+    .catch(err => {
+      console.error(err);
+    });
 
   // try {
   //   const allReviews = await pool.query(queryStr);
@@ -103,14 +108,41 @@ app.get('/reviews/meta', async (req, res) => {
   WHERE reviews.product_id = ${product_id}
   GROUP BY reviews.product_id;`;
 
-  try {
-    const allMetaDataReviews = await pool.query(queryStr);
-    res.header('Content-Type', 'application/json');
-    console.log(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
-    res.send(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
-  } catch (err) {
-    console.error(err);
-  }
+  client
+    .get(`meta?product_id=${product_id}`)
+    .then(meta => {
+      if (meta !== null) {
+        console.log('Cache hit');
+        return res.json(JSON.parse(meta));
+      } else {
+        console.log('Cache miss');
+        pool
+          .query(queryStr)
+          .then(metaData => {
+            client.SETEX(
+              `meta?product_id=${product_id}`,
+              DEFAULT_EXPIRATION,
+              JSON.stringify(metaData.rows[0])
+            );
+            res.send(JSON.stringify(metaData.rows[0]));
+          })
+          .catch(err => {
+            console.error(err);
+          });
+      }
+    })
+    .catch(err => {
+      console.error(err);
+    });
+
+  // try {
+  //   const allMetaDataReviews = await pool.query(queryStr);
+  //   res.header('Content-Type', 'application/json');
+  //   console.log(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
+  //   res.send(JSON.stringify(allMetaDataReviews.rows[0], null, 2));
+  // } catch (err) {
+  //   console.error(err);
+  // }
 });
 
 // ADD REVIEW
