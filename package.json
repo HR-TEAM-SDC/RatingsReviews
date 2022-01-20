@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "dev": "nodemon server/index.js",
+    "pm2:start": "pm2 start server/index.js",
+    "pm2:stop": "pm2 stop server/index.js"
   },
   "repository": "https://github.com/HR-TEAM-SDC/RatingsReviews.git",
   "author": "Yasin Khan <yasinkhan500@gmail.com>",

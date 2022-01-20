@@ -2,7 +2,7 @@ const { Pool } = require('pg');
 const { createClient } = require('redis');
 
 const client = createClient();
-// const client = createClient({ url: 'http://54.153.125.69' });
+// const client = createClient({ url: 'redis://@http://50.18.247.4:6379' });
 
 client.connect();
 
@@ -20,7 +20,7 @@ const pool = new Pool({
 // const pool = new Pool({
 //   user: 'postgres',
 //   password: 'password',
-//   host: '54.215.135.233',
+//   host: '54.176.58.50',
 //   port: 5432,
 //   database: 'sdc',
 // });
