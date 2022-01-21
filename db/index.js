@@ -1,14 +1,6 @@
 const { Pool } = require('pg');
 const { createClient } = require('redis');
 
-const client = createClient();
-// const client = createClient({ url: 'redis://@http://50.18.247.4:6379' });
-
-client.connect();
-
-client.on('connect', () => console.log('Redis connected'));
-client.on('error', error => console.log('Redis Error', error));
-
 const pool = new Pool({
   user: 'postgres',
   password: 'password',
@@ -25,9 +17,20 @@ const pool = new Pool({
 //   database: 'sdc',
 // });
 
-pool.on('error', (err, client) => {
-  console.error('Unexpected error on idle client', err);
-  process.exit(-1);
-});
+pool
+  .connect()
+  .then(() => {
+    console.log('Connected to Postgress');
+  })
+  .catch(err => {
+    console.log(err);
+  });
+
+const client = createClient();
+
+client.connect();
+
+client.on('connect', () => console.log('Redis connected'));
+client.on('error', error => console.log('Redis Error', error));
 
 module.exports = { pool, client };
